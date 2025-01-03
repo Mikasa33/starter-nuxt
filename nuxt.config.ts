@@ -19,25 +19,6 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  hooks: {
-    'pages:extend': (pages) => {
-      function removePagesMatching(pattern: RegExp, pages: NuxtPage[] = []) {
-        const pagesToRemove: NuxtPage[] = []
-        for (const page of pages) {
-          if (page.file && pattern.test(page.file)) {
-            pagesToRemove.push(page)
-          }
-          else {
-            removePagesMatching(pattern, page.children)
-          }
-        }
-        for (const page of pagesToRemove) {
-          pages.splice(pages.indexOf(page), 1)
-        }
-      }
-      removePagesMatching(/\**\/components/, pages)
-    },
-  },
   modules: [
     '@nuxt/devtools',
     '@nuxt/eslint',
