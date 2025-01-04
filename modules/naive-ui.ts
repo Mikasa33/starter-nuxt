@@ -1,10 +1,10 @@
-import { addComponent, addImports, defineNuxtModule } from '@nuxt/kit'
+import { addComponent, addImports, defineNuxtModule, installModule } from '@nuxt/kit'
 import naive from 'naive-ui'
 
 export default defineNuxtModule({
   meta: {
-    name: 'naive-ui-auto-import',
-    configKey: 'naive-ui-auto-import',
+    name: 'naive-ui',
+    configKey: 'naive-ui',
   },
 
   // Add types for volar
@@ -16,7 +16,9 @@ export default defineNuxtModule({
     },
   },
 
-  setup() {
+  async setup() {
+    await installModule('nuxtjs-naive-ui')
+
     // Add imports for naive-ui components
     const naiveComponents = Object.keys(naive).filter(name =>
       /^N[A-Z]|n-[a-z]/.test(name),

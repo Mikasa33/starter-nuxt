@@ -27,7 +27,6 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'dayjs-nuxt',
     'nuxt-lodash',
-    'nuxtjs-naive-ui',
     [
       '@pinia/nuxt',
       {
