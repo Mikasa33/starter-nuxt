@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   css: [
     '@unocss/reset/tailwind-compat.css',
   ],
+  // https://color-mode.nuxtjs.org/
+  colorMode: {
+    classSuffix: '',
+  },
   // https://devtools.nuxt.com/
   devtools: {
     enabled: true,
