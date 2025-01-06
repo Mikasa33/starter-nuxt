@@ -33,8 +33,8 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       naive-ui:
-        specifier: ^2.40.4
-        version: 2.40.4(vue@3.5.13(typescript@5.7.2))
+        specifier: ^2.41.0
+        version: 2.41.0(vue@3.5.13(typescript@5.7.2))
       nuxt:
         specifier: ^3.15.0
         version: 3.15.0(@parcel/watcher@2.5.0)(@types/node@22.10.5)(db0@0.2.1)(eslint@9.17.0(jiti@2.4.2))(ioredis@5.4.2)(magicast@0.3.5)(optionator@0.9.4)(rollup@4.29.1)(terser@5.37.0)(tsx@4.19.2)(typescript@5.7.2)(vite@6.0.7(@types/node@22.10.5)(jiti@2.4.2)(terser@5.37.0)(tsx@4.19.2)(yaml@2.7.0))(yaml@2.7.0)
@@ -2591,8 +2591,8 @@ packages:
   fast-npm-meta@0.2.2:
     resolution: {integrity: sha512-E+fdxeaOQGo/CMWc9f4uHFfgUPJRAu7N3uB8GBvB3SDPAIWJK4GKyYhkAGFq+GYrcbKNfQIz5VVQyJnDuPPCrg==}
 
-  fast-uri@3.0.3:
-    resolution: {integrity: sha512-aLrHthzCjH5He4Z2H9YZ+v6Ujb9ocRuW6ZzkJQOrTxleEijANq4v1TsaPaVG1PZcuurEzrLcWRyYBYXD5cEiaw==}
+  fast-uri@3.0.5:
+    resolution: {integrity: sha512-5JnBCWpFlMo0a3ciDy/JckMzzv1U9coZrIhedq+HXxxUfDTAiS0LA8OKVao4G9BxmCVck/jtA5r3KAtRWEyD8Q==}
 
   fastq@1.18.0:
     resolution: {integrity: sha512-QKHXPW0hD8g4UET03SdOdunzSouc9N4AuHdsX8XNcTsuz+yYFILVNIX4l9yHABMhiEI9Db0JTTIpu0wB+Y1QQw==}
@@ -3359,8 +3359,8 @@ packages:
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
 
-  naive-ui@2.40.4:
-    resolution: {integrity: sha512-SDFbW9/VEZix/gmzj54jH6c0YDBVM6o0mG1520RAWKtPSqVrAp5r8qLi8dYvvDmcs/qoRbzM3QGuA4GxQJ/iEg==}
+  naive-ui@2.41.0:
+    resolution: {integrity: sha512-KnmLg+xPLwXV8QVR7ZZ69eCjvel7R5vru8+eFe4VoAJHEgqAJgVph6Zno9K2IVQRpSF3GBGea3tjavslOR4FAA==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -6794,7 +6794,7 @@ snapshots:
   ajv@8.17.1:
     dependencies:
       fast-deep-equal: 3.1.3
-      fast-uri: 3.0.3
+      fast-uri: 3.0.5
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
@@ -7793,7 +7793,7 @@ snapshots:
 
   fast-npm-meta@0.2.2: {}
 
-  fast-uri@3.0.3: {}
+  fast-uri@3.0.5: {}
 
   fastq@1.18.0:
     dependencies:
@@ -8694,7 +8694,7 @@ snapshots:
 
   ms@2.1.3: {}
 
-  naive-ui@2.40.4(vue@3.5.13(typescript@5.7.2)):
+  naive-ui@2.41.0(vue@3.5.13(typescript@5.7.2)):
     dependencies:
       '@css-render/plugin-bem': 0.15.14(css-render@0.15.14)
       '@css-render/vue3-ssr': 0.15.14(vue@3.5.13(typescript@5.7.2))
